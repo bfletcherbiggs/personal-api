@@ -1,0 +1,21 @@
+<nav-comp></nav-comp>
+
+<div class="view-container">
+  <div>
+    <h1>My Skillz</h1>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Experience</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="skill in skills">
+        <td>{{skill.name}}</td>
+        <td>{{skill.experience}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

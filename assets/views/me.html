@@ -1,0 +1,21 @@
+<nav-comp></nav-comp>
+
+<div class="view-container">
+  <div>
+    <h1>My Hobbies</h1>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="hobby in hobbies">
+        <td>{{hobby.name}}</td>
+        <td>{{hobby.type}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
